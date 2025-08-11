@@ -14,7 +14,7 @@ Before you begin, ensure you have the necessary dependencies installed.
 Clone this repository, navigate into the project directory, and install the required Python packages using `requirements.txt`.
 
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/EmpatheticResponse/ERGM.git
 cd ERGM
 pip install -r requirements.txt
 ```
@@ -99,3 +99,4 @@ Use the `infer.sh` script to run inference with a trained model checkpoint. Be s
 
 ```bash
 sh infer.sh <your_checkpoint_name>
+
