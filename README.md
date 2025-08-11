@@ -35,7 +35,7 @@ Download the required datasets from their official sources:
 
 For each video, perform the following steps to create aligned data clips.
 
-1.  **Extract Full Audio Track**: Use FFmpeg to extract a 16kHz mono `.wav` audio file from each video.
+1.  **Extract Full Audio Track**: For eacg video, use FFmpeg to extract a 16kHz mono `.wav` audio file from each video.
     ```shell
     ffmpeg -i input_video.mp4 -vn -ar 16000 -ac 1 -c:a pcm_s16le output_audio.wav
     ```
@@ -99,4 +99,5 @@ Use the `infer.sh` script to run inference with a trained model checkpoint. Be s
 
 ```bash
 sh infer.sh <your_checkpoint_name>
+
 
