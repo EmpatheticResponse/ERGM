@@ -98,6 +98,7 @@ sh train.sh
 Use the `infer.sh` script to run inference with a trained model checkpoint. Be sure to specify the checkpoint name in the command.
 
 ```bash
-sh infer.sh <your_checkpoint_name>
+sh infer.sh checkpoint_name
+
 
 
