@@ -99,6 +99,3 @@ Use the `infer.sh` script to run inference with a trained model checkpoint. Be s
 
 ```bash
 sh infer.sh checkpoint_name
-
-
-
