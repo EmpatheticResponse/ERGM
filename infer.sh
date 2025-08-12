@@ -11,6 +11,7 @@ else
         --seed=0 \
         --mode="infer" \
         --data_dir="data" \
+        --output_dir="outputs" \
         --model_type="gpt2" \
         --bos_token="<bos>" \
         --sp1_token="<sp1>" \
