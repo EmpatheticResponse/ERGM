@@ -356,6 +356,7 @@ if __name__ == "__main__":
     parser.add_argument("--max_turns", type=int, default=10, help="The maximum number of dialogue histories to include.")
     parser.add_argument("--top_p", type=float, default=0.95, help="The top-p value for nucleus sampling decoding.")
     parser.add_argument("--ckpt_dir", type=str, default="saved_models", help="The directory name for saved checkpoints.")
+    parser.add_argument("--output_dir", type=str, default="outputs", help="The directory name for outputs.")
     parser.add_argument("--ckpt_name", type=str, default=None, help="The name of the trained checkpoint (without extension).")
     
     args = parser.parse_args()
